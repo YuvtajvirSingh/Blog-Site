@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Techy Geeks</title>
+</head>
+<body>
+    <div class="containter">
+        <div class="header">
+            <h1>Techy Geeks</h1>
+        </div>
+        <div class="buttons">
+            <div class="home">
+                <p1>Home</p1>
+            </div>
+            <div class="blog">
+                <p2>Blog</p2>
+            </div>
+            <div class="compare">
+                <p3>Compare</p3>
+            </div>
+            <div class="about">
+                <p4>About</p4>
+            </div>
+            <div class="login/signup">
+                <p5>Login/Sign up</p5>
+            </div>
+            <div class="mode">
+                <img src="Mode icon/moon.png" id="icon">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>    
+
+</body>
+</html>
