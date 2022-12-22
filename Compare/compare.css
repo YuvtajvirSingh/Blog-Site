@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import  url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Inter&display=swap');
+
+var{
+    color: black;
+    background-color: white;
+}
+
+:root{
+    --firstColor: black;
+    --secondColor: white;
+}
+
+.dark-theme{
+    --firstColor: white;
+    --secondColor: black;
+}
+
+body{
+    background-color: var(--secondColor);
+}
+
+body a{
+    background-color: var(--firstColor);
+}
