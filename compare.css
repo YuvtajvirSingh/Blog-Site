@@ -18,6 +18,7 @@ var{
 
 body{
     background-color: var(--secondColor);
+    transition: all 0.4s linear;
 }
 
 body a{
