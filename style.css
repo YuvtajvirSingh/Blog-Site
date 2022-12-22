@@ -6,14 +6,22 @@ var{
     background-color: white;
 }
 
-body{
+:root{
     --firstColor: black;
     --secondColor: white;
 }
 
 .dark-theme{
-    --firstColor: whitek;
+    --firstColor: white;
     --secondColor: black;
+}
+
+body{
+    background-color: var(--secondColor);
+}
+
+body a{
+    background-color: var(--firstColor);
 }
 
 h1{
@@ -23,13 +31,14 @@ h1{
     position: fixed;
     top: -1%;
     left: 45%;
+    transition: all 0.4s linear;
 }
 
 h1 a{
     color: var(--secondColor);
 }
 
-p1{
+.home{
     color: var(--firstColor);
     font-family: Inter;
     font-size: 26px;
@@ -39,15 +48,15 @@ p1{
     transition: all 0.4s linear;
 }
 
-p1:hover{
+.home:hover{
     color: rgb(97, 203, 211)
 }
 
-p1 a{
+.home a{
     color: var(--secondColor);
 }
 
-p2{
+.blog{
     color: var(--firstColor);
     font-family: Inter;
     font-size: 26px;
@@ -57,15 +66,15 @@ p2{
     transition: all 0.4s linear;
 }
 
-p2:hover{
+.blog:hover{
     color: rgb(97, 203, 211)
 }
 
-p2 a{
+.blog a{
     color: var(--secondColor);
 }
 
-p3{
+.compare{
     color: var(--firstColor);
     font-family: Inter;
     font-size: 26px;
@@ -75,15 +84,15 @@ p3{
     transition: all 0.4s linear;
 }
 
-p3:hover{
+.compare:hover{
     color: rgb(97, 203, 211)
 }
 
-p3 a{
+.compare a{
     color: var(--secondColor);
 }
 
-p4{
+.about{
     color: var(--firstColor);
     font-family: Inter;
     font-size: 26px;
@@ -93,15 +102,15 @@ p4{
     transition: all 0.4s linear;
 }
 
-p4:hover{
+.about:hover{
     color: rgb(97, 203, 211)
 }
 
-p4 a{
+.about a{
     color: var(--secondColor);
 }
 
-p5{
+.login{
     color: var(--firstColor);
     font-family: Inter;
     font-size: 20px;
@@ -111,11 +120,11 @@ p5{
     transition: all 0.4s linear;
 }
 
-p5:hover{
+.login:hover{
     color: rgb(97, 203, 211)
 }
 
-p5 a{
+.login a{
     color: var(--secondColor);
 }
 
@@ -125,4 +134,5 @@ p5 a{
     position: fixed;
     top: 1.75%;
     left: 91%;
+    transition: all 0.4s linear;
 }
