@@ -24,6 +24,110 @@ body a{
     background-color: var(--firstColor);
 }
 
+h1{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 30px;
+    position: fixed;
+    top: -1%;
+    left: 45%;
+    transition: all 0.4s linear;
+}
+
+h1 a{
+    color: var(--secondColor);
+}
+
+.home{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 26px;
+    position: fixed;
+    top: 6%;
+    left: 32%;
+    transition: all 0.4s linear;
+}
+
+.home:hover{
+    color: rgb(97, 203, 211)
+}
+
+.home a{
+    color: var(--secondColor);
+}
+
+.blog{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 26px;
+    position:fixed;
+    top: 6%;
+    left: 42%;
+    transition: all 0.4s linear;
+}
+
+.blog:hover{
+    color: rgb(97, 203, 211)
+}
+
+.blog a{
+    color: var(--secondColor);
+}
+
+.compare{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 26px;
+    position: fixed;
+    top: 6%;
+    left: 52%;
+    transition: all 0.4s linear;
+}
+
+.compare:hover{
+    color: rgb(97, 203, 211)
+}
+
+.compare a{
+    color: var(--secondColor);
+}
+
+.about{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 26px;
+    position: fixed;
+    top: 6%;
+    left: 62%;
+    transition: all 0.4s linear;
+}
+
+.about:hover{
+    color: rgb(97, 203, 211)
+}
+
+.about a{
+    color: var(--secondColor);
+}
+
+.login{
+    color: var(--firstColor);
+    font-family: Inter;
+    font-size: 20px;
+    position: fixed;
+    top: 2%;
+    left: 93%;
+    transition: all 0.4s linear;
+}
+
+.login:hover{
+    color: rgb(97, 203, 211)
+}
+
+.login a{
+    color: var(--secondColor);
+}
+
 #icon{
     width: 30px;
     cursor: pointer;
