@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Login/Signup</title>
+</head>
+<body>
+    <div class="mode">
+                <img src="Mode icon/moon.png" id="icon">
+            </div>
+            <div class="container">
+                <h1>Sign Up</h1>
+                <div class="credentional">
+                <label>Username</label>
+                <input type="name" placeholder="">
+                <label>Password</label>
+                <input type="password" placeholder="">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="">
+                <input type="button" value="Submit">
+                </div>
+                <div class="para">
+                    <p1>By clicking the submit button, you hearby declare yourself as a reader of my</p1>
+                </div>
+                <a href="Terms.html" target="_blank">
+                    <div class="terms">Terms and Conditions</div>
+                </a href><div class="and">and</div><a href="Policy.html" target="_blank" id="policy"> 
+                    <div class="policy">Policy and Privacy</div>
+                </a> 
+
+                <div class="login">
+                    <p2>Already of an account?<a href="login.html">
+                        <div class="loginbut">login</div>
+                    </a>
+                </div>
+            </p2>
+                    
+            </div>
+
+
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "Mode icon/sun.png";
+            }
+            else {
+                icon.src = "Mode icon/moon.png";
+            }
+        }
+    </script>  
+</body>
+</html>
