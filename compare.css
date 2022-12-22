@@ -23,3 +23,12 @@ body{
 body a{
     background-color: var(--firstColor);
 }
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 1.75%;
+    left: 91%;
+    transition: all 0.4s linear;
+}
